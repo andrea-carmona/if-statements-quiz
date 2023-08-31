@@ -210,10 +210,10 @@ console.log("[Question #23]: ", userData);
  */
 
 if (settings.theme !== "red") {
-  userData.score = 15;
+  userData.score += 15;
 }
 
-console.log("[Question #24]: ", settings);
+console.log("[Question #24]: ", userData);
 /**
  * Question 25
  * If userData has a hasBonus property and its value is true, set result to the sum of result and the score property of userData.
